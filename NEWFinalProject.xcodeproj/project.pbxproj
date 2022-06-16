@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D5D82094285B76FC007FCBF7 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D82093285B76FC007FCBF7 /* ScrollViewController.swift */; };
+		D5D82096285BA694007FCBF7 /* SouthAmericaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D82095285BA694007FCBF7 /* SouthAmericaViewController.swift */; };
+		D5D82098285BAA37007FCBF7 /* AfricaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D82097285BAA36007FCBF7 /* AfricaViewController.swift */; };
 		D5D90C172859081800CD1451 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D90C162859081800CD1451 /* AppDelegate.swift */; };
 		D5D90C192859081800CD1451 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D90C182859081800CD1451 /* SceneDelegate.swift */; };
 		D5D90C1B2859081800CD1451 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D90C1A2859081800CD1451 /* ViewController.swift */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		D5D82093285B76FC007FCBF7 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		D5D82095285BA694007FCBF7 /* SouthAmericaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthAmericaViewController.swift; sourceTree = "<group>"; };
+		D5D82097285BAA36007FCBF7 /* AfricaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaViewController.swift; sourceTree = "<group>"; };
 		D5D90C132859081800CD1451 /* NEWFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEWFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D90C162859081800CD1451 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5D90C182859081800CD1451 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				D5D90C182859081800CD1451 /* SceneDelegate.swift */,
 				D5D90C1A2859081800CD1451 /* ViewController.swift */,
 				D5D90C1C2859081800CD1451 /* Main.storyboard */,
+				D5D82097285BAA36007FCBF7 /* AfricaViewController.swift */,
+				D5D82095285BA694007FCBF7 /* SouthAmericaViewController.swift */,
 				D5D90C222859081C00CD1451 /* Assets.xcassets */,
 				D5D90C242859081C00CD1451 /* LaunchScreen.storyboard */,
 				D5D90C272859081C00CD1451 /* Info.plist */,
@@ -264,10 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5D82096285BA694007FCBF7 /* SouthAmericaViewController.swift in Sources */,
 				D5D90C1B2859081800CD1451 /* ViewController.swift in Sources */,
 				D5D90C172859081800CD1451 /* AppDelegate.swift in Sources */,
 				D5D82094285B76FC007FCBF7 /* ScrollViewController.swift in Sources */,
 				D5D90C192859081800CD1451 /* SceneDelegate.swift in Sources */,
+				D5D82098285BAA37007FCBF7 /* AfricaViewController.swift in Sources */,
 				D5D90C212859081800CD1451 /* NEWFinalProject.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
