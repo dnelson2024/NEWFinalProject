@@ -336,6 +336,128 @@
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NAs-Sq-3dF">
                                                 <rect key="frame" x="40" y="222.5" width="334" height="555.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please click on the images of all of the items below that can be recycled! " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzD-kQ-39f">
+                                                        <rect key="frame" x="8" y="8" width="318" height="58"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pjw-Sw-R6e">
+                                                        <rect key="frame" x="167" y="107" width="104" height="87"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Ceramic"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZE-UX-gTm">
+                                                        <rect key="frame" x="0.0" y="108" width="104" height="87"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Box"/>
+                                                        <connections>
+                                                            <action selector="blankLabel1:" destination="Aae-Xw-qgC" eventType="touchUpInside" id="Fzx-Vf-OtJ"/>
+                                                            <action selector="boxButton:" destination="Aae-Xw-qgC" eventType="touchUpInside" id="Tsh-Vy-nDU"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRh-BV-m38">
+                                                        <rect key="frame" x="0.0" y="223" width="104" height="87"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Glass"/>
+                                                    </button>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="glass-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="gsH-NZ-LJo">
+                                                        <rect key="frame" x="0.0" y="223" width="104" height="88"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gKV-tG-c8z">
+                                                        <rect key="frame" x="0.0" y="336" width="104" height="87"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Paper"/>
+                                                    </button>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="paper-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="x2S-ki-NfW">
+                                                        <rect key="frame" x="0.0" y="336" width="104" height="88"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GHB-0g-Oyc">
+                                                        <rect key="frame" x="167" y="337" width="104" height="87"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Napkin"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjI-Id-4EZ">
+                                                        <rect key="frame" x="167" y="224" width="104" height="87"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Plastic"/>
+                                                    </button>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="istockphoto-1160952277-612x612-removebg-preview-1" translatesAutoresizingMaskIntoConstraints="NO" id="WX3-1U-SB7">
+                                                        <rect key="frame" x="167" y="223" width="106" height="88"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="napkins-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="Xe0-ne-WTg">
+                                                        <rect key="frame" x="167" y="337" width="104" height="87"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ceramic-pottery-coffee-cup-porcelain-png-favpng-3Le8CbSM1e8SRv61Mb2bN5vuU-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="cJR-NR-qXC">
+                                                        <rect key="frame" x="167" y="107" width="104" height="88"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OVP-o5-t4u">
+                                                        <rect key="frame" x="112" y="141" width="42" height="21"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZT-Me-PgC">
+                                                        <rect key="frame" x="112" y="256" width="42" height="21"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KVh-ng-qgn">
+                                                        <rect key="frame" x="112" y="369" width="42" height="21"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8L-0Q-PCX">
+                                                        <rect key="frame" x="284" y="140" width="42" height="21"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQq-PM-XJN">
+                                                        <rect key="frame" x="292" y="256" width="42" height="21"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPb-KD-fiW">
+                                                        <rect key="frame" x="284" y="370" width="42" height="21"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="animated-recycling-clipart-group-with-items-815297-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="bt0-Es-Orv">
+                                                        <rect key="frame" x="0.0" y="108" width="104" height="88"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </imageView>
+                                                </subviews>
                                                 <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="497" id="x3n-pp-BgV"/>
@@ -428,12 +550,29 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="blankLabel1" destination="OVP-o5-t4u" id="f9r-wj-fNE"/>
+                        <outlet property="blankLabel2" destination="KZT-Me-PgC" id="XPZ-ll-OYx"/>
                         <outlet property="label1" destination="0XB-Ye-OJk" id="ayC-Rv-UVj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XpD-Ob-2Mo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="975" y="-135"/>
+            <point key="canvasLocation" x="973.91304347826099" y="-135.26785714285714"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jLS-Xh-gEE">
+            <objects>
+                <viewController id="Vfy-Rj-UDg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Nf-Qc-h4G">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="2Hg-ov-geO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kNq-NK-RSC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1732" y="-159"/>
         </scene>
         <!--South America View Controller-->
         <scene sceneID="zPL-zg-YVj">
@@ -1068,7 +1207,7 @@
                                             <segue destination="leW-1a-GPT" kind="presentation" modalPresentationStyle="fullScreen" id="WMd-bM-vmi"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem title="Ant" id="kJA-dp-6ND">
+                                    <barButtonItem title="Arc" id="kJA-dp-6ND">
                                         <connections>
                                             <segue destination="1SM-2B-Mpq" kind="presentation" modalPresentationStyle="fullScreen" id="ihC-hZ-YqP"/>
                                         </connections>
@@ -1087,7 +1226,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="globe.americas" catalog="system" title=""/>
                                 <connections>
-                                    <segue destination="Aae-Xw-qgC" kind="presentation" id="VWl-0C-rBx"/>
+                                    <segue destination="Aae-Xw-qgC" kind="presentation" modalPresentationStyle="fullScreen" id="VWl-0C-rBx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3yL-mm-pLT">
@@ -1175,13 +1314,19 @@
         <segue reference="qkf-hH-EC7"/>
         <segue reference="Ztc-UL-rlP"/>
         <segue reference="Vc0-bp-YM8"/>
-        <segue reference="d6c-vx-neB"/>
+        <segue reference="VWl-0C-rBx"/>
         <segue reference="O47-rD-tbQ"/>
         <segue reference="ltd-2n-TW3"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="animated-recycling-clipart-group-with-items-815297-removebg-preview" width="575" height="434"/>
+        <image name="ceramic-pottery-coffee-cup-porcelain-png-favpng-3Le8CbSM1e8SRv61Mb2bN5vuU-removebg-preview" width="566" height="441"/>
+        <image name="glass-removebg-preview" width="360" height="360"/>
         <image name="globe.americas" catalog="system" width="128" height="121"/>
         <image name="graduationcap.fill" catalog="system" width="128" height="108"/>
+        <image name="istockphoto-1160952277-612x612-removebg-preview-1" width="500" height="500"/>
+        <image name="napkins-removebg-preview" width="500" height="500"/>
+        <image name="paper-removebg-preview" width="506" height="493"/>
         <image name="world-map-doodle-260nw-598322657-removebg-preview" width="439" height="280"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
