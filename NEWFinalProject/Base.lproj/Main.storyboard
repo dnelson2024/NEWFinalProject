@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WD4-rY-Ra5">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="819.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MkJ-0i-7VO">
                                                 <rect key="frame" x="40" y="40" width="334" height="180"/>
@@ -46,18 +46,18 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HMt-aD-Zxd">
-                                                <rect key="frame" x="40" y="281" width="334" height="497"/>
+                                                <rect key="frame" x="40" y="282.5" width="334" height="497"/>
                                                 <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="497" id="cSX-Cw-PoY"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8n-Rh-iqR">
-                                                <rect key="frame" x="20" y="240" width="374" height="21"/>
+                                                <rect key="frame" x="20" y="240" width="374" height="22.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="4Uh-Ry-56G"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -94,7 +94,7 @@
                                                             <segue destination="leW-1a-GPT" kind="presentation" modalPresentationStyle="fullScreen" id="5zb-XP-Lnv"/>
                                                         </connections>
                                                     </barButtonItem>
-                                                    <barButtonItem title="Ant" id="iPU-fO-pBb">
+                                                    <barButtonItem title="Arc" id="iPU-fO-pBb">
                                                         <connections>
                                                             <segue destination="1SM-2B-Mpq" kind="presentation" modalPresentationStyle="fullScreen" id="UzL-8a-HbI"/>
                                                         </connections>
@@ -146,7 +146,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ybc-h4-zUt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-294.20289855072468" y="-690.40178571428567"/>
+            <point key="canvasLocation" x="-528" y="-283"/>
         </scene>
         <!--Antartica View Controller-->
         <scene sceneID="EMH-zh-ejt">
@@ -160,12 +160,12 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QZx-fX-vfq">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="819.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fzg-2B-Vfh">
                                                 <rect key="frame" x="40" y="40" width="334" height="180"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ANTARTICA:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4g-d7-Ty5">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="      ARCTIC:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4g-d7-Ty5">
                                                         <rect key="frame" x="51" y="35" width="232" height="57"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="36"/>
@@ -186,18 +186,18 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ZR-mK-hyx">
-                                                <rect key="frame" x="40" y="281" width="334" height="497"/>
+                                                <rect key="frame" x="40" y="282.5" width="334" height="497"/>
                                                 <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="497" id="vtN-Ld-K3s"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTe-WE-UrJ">
-                                                <rect key="frame" x="20" y="240" width="374" height="21"/>
+                                                <rect key="frame" x="20" y="240" width="374" height="22.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="Ngx-wp-0ZZ"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -286,7 +286,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HiS-iD-WGV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="591" y="-818"/>
+            <point key="canvasLocation" x="216" y="-408"/>
         </scene>
         <!--Scroll View Controller-->
         <scene sceneID="7td-lc-nYj">
@@ -326,16 +326,16 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0XB-Ye-OJk">
-                                                <rect key="frame" x="20" y="180" width="374" height="21"/>
+                                                <rect key="frame" x="20" y="180" width="374" height="22.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="8BN-Yh-M1A"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NAs-Sq-3dF">
-                                                <rect key="frame" x="40" y="221" width="334" height="557"/>
+                                                <rect key="frame" x="40" y="222.5" width="334" height="555.5"/>
                                                 <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="497" id="x3n-pp-BgV"/>
@@ -374,7 +374,7 @@
                                                             <segue destination="leW-1a-GPT" kind="presentation" modalPresentationStyle="fullScreen" id="Zuv-Z1-lFh"/>
                                                         </connections>
                                                     </barButtonItem>
-                                                    <barButtonItem title="Ant" id="U5c-VI-czu">
+                                                    <barButtonItem title="Arc" id="U5c-VI-czu">
                                                         <connections>
                                                             <segue destination="1SM-2B-Mpq" kind="presentation" modalPresentationStyle="fullScreen" id="O47-rD-tbQ"/>
                                                         </connections>
@@ -433,7 +433,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XpD-Ob-2Mo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1271.0144927536232" y="-283.25892857142856"/>
+            <point key="canvasLocation" x="975" y="-135"/>
         </scene>
         <!--South America View Controller-->
         <scene sceneID="zPL-zg-YVj">
@@ -447,14 +447,14 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aAO-fR-3AT">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="819.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G3U-OZ-t60">
-                                                <rect key="frame" x="20" y="240" width="374" height="21"/>
+                                                <rect key="frame" x="20" y="240" width="374" height="22.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="UA6-nB-N8m"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -482,7 +482,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nFe-mU-Sde">
-                                                <rect key="frame" x="40" y="281" width="334" height="497"/>
+                                                <rect key="frame" x="40" y="282.5" width="334" height="497"/>
                                                 <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="497" id="WY0-fD-h7y"/>
@@ -512,8 +512,14 @@
                                                         </connections>
                                                     </barButtonItem>
                                                     <barButtonItem title="Afr" id="4N3-SW-GMC"/>
-                                                    <barButtonItem title="Eur" id="g9Q-1F-rFb"/>
-                                                    <barButtonItem title="Ant" id="8Eh-TW-pfV"/>
+                                                    <barButtonItem title="Eur" id="g9Q-1F-rFb">
+                                                        <connections>
+                                                            <segue destination="leW-1a-GPT" kind="popoverPresentation" popoverAnchorBarButtonItem="g9Q-1F-rFb" id="Lag-0R-Zl9">
+                                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                                            </segue>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Arc" id="8Eh-TW-pfV"/>
                                                 </items>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </toolbar>
@@ -564,7 +570,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LSa-Le-uLb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="1030"/>
+            <point key="canvasLocation" x="112" y="976"/>
         </scene>
         <!--Australia View Controller-->
         <scene sceneID="eeq-FS-x8b">
@@ -578,7 +584,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SET-KH-hBx">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="819.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EZh-lU-tcS">
                                                 <rect key="frame" x="40" y="40" width="334" height="180"/>
@@ -604,16 +610,16 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wr7-LD-zl6">
-                                                <rect key="frame" x="20" y="240" width="374" height="21"/>
+                                                <rect key="frame" x="20" y="240" width="374" height="22.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="cDL-RB-4xY"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aMk-sK-QkG">
-                                                <rect key="frame" x="40" y="281" width="334" height="497"/>
+                                                <rect key="frame" x="40" y="282.5" width="334" height="497"/>
                                                 <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="497" id="wRE-DK-q5O"/>
@@ -652,7 +658,7 @@
                                                             <segue destination="leW-1a-GPT" kind="presentation" modalPresentationStyle="fullScreen" id="WpC-tY-R30"/>
                                                         </connections>
                                                     </barButtonItem>
-                                                    <barButtonItem title="Ant" id="5cb-xv-DZW">
+                                                    <barButtonItem title="Arc" id="5cb-xv-DZW">
                                                         <connections>
                                                             <segue destination="1SM-2B-Mpq" kind="presentation" modalPresentationStyle="fullScreen" id="IoD-J3-BAD"/>
                                                         </connections>
@@ -707,7 +713,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hau-SE-OT0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1030.4347826086957" y="644.86607142857144"/>
+            <point key="canvasLocation" x="-687" y="788"/>
         </scene>
         <!--Africa View Controller-->
         <scene sceneID="Vj9-aY-gv2">
@@ -721,14 +727,14 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TDp-TT-53V">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="819.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T1i-th-bFQ">
-                                                <rect key="frame" x="20" y="240" width="374" height="21"/>
+                                                <rect key="frame" x="20" y="240" width="374" height="22.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="MPn-eV-J0n"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -756,7 +762,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sXj-0Y-UN6">
-                                                <rect key="frame" x="40" y="281" width="334" height="497"/>
+                                                <rect key="frame" x="40" y="282.5" width="334" height="497"/>
                                                 <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="497" id="GaV-ea-K16"/>
@@ -795,7 +801,7 @@
                                                             <segue destination="leW-1a-GPT" kind="presentation" modalPresentationStyle="fullScreen" id="oBr-j0-twd"/>
                                                         </connections>
                                                     </barButtonItem>
-                                                    <barButtonItem title="Ant" id="D7b-OH-XFJ">
+                                                    <barButtonItem title="Arc" id="D7b-OH-XFJ">
                                                         <connections>
                                                             <segue destination="1SM-2B-Mpq" kind="presentation" modalPresentationStyle="fullScreen" id="KJO-OY-BFo"/>
                                                         </connections>
@@ -851,7 +857,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F0O-mk-GEc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="997" y="479"/>
+            <point key="canvasLocation" x="862" y="573"/>
         </scene>
         <!--Europe View Controller-->
         <scene sceneID="Wbt-lg-a8O">
@@ -865,7 +871,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pku-BO-48K">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="820"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KKV-0C-mCf">
                                                 <rect key="frame" x="40" y="40" width="334" height="180"/>
@@ -891,18 +897,18 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uRn-YL-BaT">
-                                                <rect key="frame" x="40" y="281" width="334" height="497.5"/>
+                                                <rect key="frame" x="40" y="282.5" width="334" height="497.5"/>
                                                 <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="497.5" id="0RI-Ko-dOR"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bB2-8r-f4a">
-                                                <rect key="frame" x="20" y="240" width="374" height="21"/>
+                                                <rect key="frame" x="20" y="240" width="374" height="22.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="Oiq-p9-kLV"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -939,7 +945,7 @@
                                                             <segue destination="VlJ-6e-vm0" kind="presentation" modalPresentationStyle="fullScreen" id="90U-FU-bsG"/>
                                                         </connections>
                                                     </barButtonItem>
-                                                    <barButtonItem title="Ant" id="uli-PO-kNl">
+                                                    <barButtonItem title="Arc" id="uli-PO-kNl">
                                                         <connections>
                                                             <segue destination="1SM-2B-Mpq" kind="presentation" modalPresentationStyle="fullScreen" id="8bZ-n4-Kcz"/>
                                                         </connections>
@@ -991,7 +997,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4N7-QG-mv3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1268" y="-579"/>
+            <point key="canvasLocation" x="-1190" y="158"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -1013,7 +1019,7 @@
                                 <rect key="frame" x="20" y="641" width="361" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
-                                <string key="text">Directions: Press on each continent to see a description of its major environmental issue, measures being taken, and how you can help! Be sure to check out the game at the bottom of the page after reading the description.</string>
+                                <string key="text">Directions: Press on each continent to see a description of its major environmental issue, measures being taken, and how you can help!  Be sure to check out the game at the bottom of the page after reading the description.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
@@ -1075,53 +1081,74 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dw7-4W-zBN">
-                                <rect key="frame" x="100" y="384" width="8" height="8"/>
+                                <rect key="frame" x="100" y="384" width="17" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.02818832731" green="0.4432401561" blue="0.1480628675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title=""/>
+                                <buttonConfiguration key="configuration" style="filled" image="globe.americas" catalog="system" title=""/>
+                                <connections>
+                                    <segue destination="Aae-Xw-qgC" kind="presentation" id="VWl-0C-rBx"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0A-XM-QoV">
-                                <rect key="frame" x="143" y="445" width="10" height="10"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3yL-mm-pLT">
+                                <rect key="frame" x="138" y="446" width="17" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.02818832731" green="0.4432401561" blue="0.1480628675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title=""/>
+                                <buttonConfiguration key="configuration" style="filled" image="globe.americas" catalog="system" title=""/>
+                                <connections>
+                                    <segue destination="xQC-Us-ztb" kind="presentation" id="0ZH-U9-eAx"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VXG-0T-vC9">
-                                <rect key="frame" x="207" y="508" width="8" height="8"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.0" green="0.4102270724" blue="0.017778787149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title=""/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCn-qs-thS">
-                                <rect key="frame" x="206" y="415" width="10" height="10"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gqu-PE-fc4">
+                                <rect key="frame" x="214" y="374" width="17" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.02818832731" green="0.4432401561" blue="0.1480628675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title=""/>
+                                <buttonConfiguration key="configuration" style="filled" image="globe.americas" catalog="system" title=""/>
+                                <connections>
+                                    <segue destination="leW-1a-GPT" kind="presentation" id="wzv-qf-97a"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CxB-x8-rb6">
-                                <rect key="frame" x="217" y="378" width="10" height="10"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5kx-Xx-5of">
+                                <rect key="frame" x="323" y="454" width="17" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.02818832731" green="0.4432401561" blue="0.1480628675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title=""/>
+                                <buttonConfiguration key="configuration" style="filled" image="globe.americas" catalog="system" title=""/>
+                                <connections>
+                                    <segue destination="kOn-Ju-Pj6" kind="presentation" id="AJl-Dp-eeg"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFX-vA-Vie">
-                                <rect key="frame" x="275" y="371" width="10" height="11"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RI0-b8-IgS">
+                                <rect key="frame" x="281" y="384" width="17" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.02818832731" green="0.4432401561" blue="0.1480628675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title=""/>
+                                <buttonConfiguration key="configuration" style="filled" image="globe.americas" catalog="system" title=""/>
+                                <connections>
+                                    <segue destination="3qr-ga-wsq" kind="presentation" id="5o5-g1-5sk"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YIK-Gd-cba">
-                                <rect key="frame" x="322" y="455" width="10" height="10"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcp-nT-Rjg">
+                                <rect key="frame" x="214" y="425" width="17" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.02818832731" green="0.4432401561" blue="0.1480628675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title=""/>
+                                <buttonConfiguration key="configuration" style="filled" image="globe.americas" catalog="system" title=""/>
+                                <connections>
+                                    <segue destination="VlJ-6e-vm0" kind="presentation" id="jZE-Vo-xGh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAN-xn-VWK">
+                                <rect key="frame" x="158" y="339" width="17" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.02818832731" green="0.4432401561" blue="0.1480628675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="globe.americas" catalog="system" title=""/>
+                                <connections>
+                                    <segue destination="1SM-2B-Mpq" kind="presentation" id="iqQ-5g-sP5"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -1143,16 +1170,17 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="J4Y-Cc-A4i"/>
-        <segue reference="KTF-mV-pSj"/>
-        <segue reference="IAy-7B-sTM"/>
-        <segue reference="gJx-E0-CSX"/>
-        <segue reference="Cfg-xU-ZuT"/>
-        <segue reference="Hcp-yL-Sfj"/>
-        <segue reference="8bZ-n4-Kcz"/>
-        <segue reference="Yeb-Kd-QNY"/>
+        <segue reference="nVV-n9-iy3"/>
+        <segue reference="Zuv-Z1-lFh"/>
+        <segue reference="qkf-hH-EC7"/>
+        <segue reference="Ztc-UL-rlP"/>
+        <segue reference="Vc0-bp-YM8"/>
+        <segue reference="d6c-vx-neB"/>
+        <segue reference="O47-rD-tbQ"/>
+        <segue reference="ltd-2n-TW3"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="globe.americas" catalog="system" width="128" height="121"/>
         <image name="graduationcap.fill" catalog="system" width="128" height="108"/>
         <image name="world-map-doodle-260nw-598322657-removebg-preview" width="439" height="280"/>
         <systemColor name="labelColor">
