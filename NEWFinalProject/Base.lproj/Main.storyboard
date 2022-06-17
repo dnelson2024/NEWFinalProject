@@ -8,6 +8,286 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Asia View Controller-->
+        <scene sceneID="aJf-mP-iYx">
+            <objects>
+                <viewController id="3qr-ga-wsq" customClass="AsiaViewController" customModule="NEWFinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yMM-PI-p87">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CCR-AK-em9">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WD4-rY-Ra5">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MkJ-0i-7VO">
+                                                <rect key="frame" x="40" y="40" width="334" height="180"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ASIA:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7PK-su-a4G">
+                                                        <rect key="frame" x="118" y="8" width="99" height="57"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="36"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Water Shortage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AEm-4T-nqO">
+                                                        <rect key="frame" x="43" y="55" width="248" height="57"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="36"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="180" id="sOb-SP-6Jf"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HMt-aD-Zxd">
+                                                <rect key="frame" x="40" y="281" width="334" height="497"/>
+                                                <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="497" id="cSX-Cw-PoY"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8n-Rh-iqR">
+                                                <rect key="frame" x="20" y="240" width="374" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="4Uh-Ry-56G"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eFz-8C-kOY">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                                <items>
+                                                    <barButtonItem title="HOME" id="t7k-cx-bsV">
+                                                        <connections>
+                                                            <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="QNT-n6-usj"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="N Amer" id="K15-rZ-kIB">
+                                                        <connections>
+                                                            <segue destination="Aae-Xw-qgC" kind="presentation" modalPresentationStyle="fullScreen" id="lcx-KV-Fir"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="S Amer" id="sYp-fa-SK6">
+                                                        <connections>
+                                                            <segue destination="xQC-Us-ztb" kind="presentation" modalPresentationStyle="fullScreen" id="A8m-1b-xlB"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Aus" id="Yt6-ZA-UTQ">
+                                                        <connections>
+                                                            <segue destination="kOn-Ju-Pj6" kind="presentation" id="Jjx-YN-F8W"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Afr" id="67A-6q-pe1">
+                                                        <connections>
+                                                            <segue destination="VlJ-6e-vm0" kind="presentation" modalPresentationStyle="fullScreen" id="s30-y5-odH"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Eur" id="afs-VP-Grp">
+                                                        <connections>
+                                                            <segue destination="leW-1a-GPT" kind="presentation" modalPresentationStyle="fullScreen" id="5zb-XP-Lnv"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Ant" id="iPU-fO-pBb">
+                                                        <connections>
+                                                            <segue destination="1SM-2B-Mpq" kind="presentation" modalPresentationStyle="fullScreen" id="UzL-8a-HbI"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                </items>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </toolbar>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="HMt-aD-Zxd" firstAttribute="leading" secondItem="WD4-rY-Ra5" secondAttribute="leading" constant="40" id="7yP-lh-eIo"/>
+                                            <constraint firstItem="y8n-Rh-iqR" firstAttribute="top" secondItem="MkJ-0i-7VO" secondAttribute="bottom" constant="20" id="KYg-Th-LWp"/>
+                                            <constraint firstItem="eFz-8C-kOY" firstAttribute="top" secondItem="WD4-rY-Ra5" secondAttribute="top" id="WUI-ye-Cis"/>
+                                            <constraint firstItem="eFz-8C-kOY" firstAttribute="leading" secondItem="WD4-rY-Ra5" secondAttribute="leading" id="Xby-k0-cmc"/>
+                                            <constraint firstAttribute="trailing" secondItem="MkJ-0i-7VO" secondAttribute="trailing" constant="40" id="ePr-6C-h9w"/>
+                                            <constraint firstAttribute="trailing" secondItem="y8n-Rh-iqR" secondAttribute="trailing" constant="20" id="iAC-F0-2vm"/>
+                                            <constraint firstItem="MkJ-0i-7VO" firstAttribute="top" secondItem="WD4-rY-Ra5" secondAttribute="top" constant="40" id="j9h-uv-c8M"/>
+                                            <constraint firstItem="HMt-aD-Zxd" firstAttribute="top" secondItem="y8n-Rh-iqR" secondAttribute="bottom" constant="20" id="nhs-i6-xwA"/>
+                                            <constraint firstItem="y8n-Rh-iqR" firstAttribute="leading" secondItem="WD4-rY-Ra5" secondAttribute="leading" constant="20" id="r6F-xH-vCC"/>
+                                            <constraint firstAttribute="trailing" secondItem="HMt-aD-Zxd" secondAttribute="trailing" constant="40" id="uqY-th-L9f"/>
+                                            <constraint firstItem="MkJ-0i-7VO" firstAttribute="leading" secondItem="WD4-rY-Ra5" secondAttribute="leading" constant="40" id="wAP-c5-iSh"/>
+                                            <constraint firstAttribute="bottom" secondItem="HMt-aD-Zxd" secondAttribute="bottom" constant="40" id="y31-8i-hGU"/>
+                                            <constraint firstAttribute="trailing" secondItem="eFz-8C-kOY" secondAttribute="trailing" id="zda-F1-jp5"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="WD4-rY-Ra5" firstAttribute="height" secondItem="CCR-AK-em9" secondAttribute="height" priority="250" id="02m-Pc-fSP"/>
+                                    <constraint firstItem="WD4-rY-Ra5" firstAttribute="top" secondItem="CCR-AK-em9" secondAttribute="top" id="6Gr-Vr-Oxl"/>
+                                    <constraint firstItem="WD4-rY-Ra5" firstAttribute="leading" secondItem="CCR-AK-em9" secondAttribute="leading" id="6PU-Mc-aiJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="WD4-rY-Ra5" secondAttribute="bottom" id="6UU-Te-WK7"/>
+                                    <constraint firstItem="WD4-rY-Ra5" firstAttribute="width" secondItem="CCR-AK-em9" secondAttribute="width" id="eGT-JU-sTx"/>
+                                    <constraint firstAttribute="trailing" secondItem="WD4-rY-Ra5" secondAttribute="trailing" id="u2d-1u-7Dc"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JnX-zH-cnp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="CCR-AK-em9" firstAttribute="leading" secondItem="JnX-zH-cnp" secondAttribute="leading" id="KO0-ho-OYb"/>
+                            <constraint firstItem="CCR-AK-em9" firstAttribute="bottom" secondItem="JnX-zH-cnp" secondAttribute="bottom" id="USM-sO-oq9"/>
+                            <constraint firstItem="CCR-AK-em9" firstAttribute="top" secondItem="JnX-zH-cnp" secondAttribute="top" id="lYh-15-fwr"/>
+                            <constraint firstItem="CCR-AK-em9" firstAttribute="trailing" secondItem="JnX-zH-cnp" secondAttribute="trailing" id="qIK-3A-c3D"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label6" destination="y8n-Rh-iqR" id="uHD-Mx-uRb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ybc-h4-zUt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-294.20289855072468" y="-690.40178571428567"/>
+        </scene>
+        <!--Antartica View Controller-->
+        <scene sceneID="EMH-zh-ejt">
+            <objects>
+                <viewController id="1SM-2B-Mpq" customClass="AntarticaViewController" customModule="NEWFinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0kP-KL-CUQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ipz-Xc-Ihc">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QZx-fX-vfq">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fzg-2B-Vfh">
+                                                <rect key="frame" x="40" y="40" width="334" height="180"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ANTARTICA:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4g-d7-Ty5">
+                                                        <rect key="frame" x="51" y="35" width="232" height="57"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="36"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Glaciers Melting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3dm-Q9-CQ6">
+                                                        <rect key="frame" x="43" y="75" width="248" height="57"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="36"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="180" id="BMM-dw-jOO"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ZR-mK-hyx">
+                                                <rect key="frame" x="40" y="281" width="334" height="497"/>
+                                                <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="497" id="vtN-Ld-K3s"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTe-WE-UrJ">
+                                                <rect key="frame" x="20" y="240" width="374" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="Ngx-wp-0ZZ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6yW-U2-Asj">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                                <items>
+                                                    <barButtonItem title="HOME" id="wQO-3e-Bu5">
+                                                        <connections>
+                                                            <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="J4Y-Cc-A4i"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="N Amer" id="Zoh-Ug-QAY">
+                                                        <connections>
+                                                            <segue destination="Aae-Xw-qgC" kind="presentation" modalPresentationStyle="fullScreen" id="Hcp-yL-Sfj"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="S Amer" id="QAz-Kq-Mi5">
+                                                        <connections>
+                                                            <segue destination="xQC-Us-ztb" kind="presentation" modalPresentationStyle="fullScreen" id="Cfg-xU-ZuT"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Aus" id="e85-ev-0PA">
+                                                        <connections>
+                                                            <segue destination="kOn-Ju-Pj6" kind="presentation" modalPresentationStyle="fullScreen" id="gJx-E0-CSX"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Asia" id="xLo-xe-Wox">
+                                                        <connections>
+                                                            <segue destination="3qr-ga-wsq" kind="presentation" modalPresentationStyle="fullScreen" id="Yeb-Kd-QNY"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Afr" id="Toh-01-JQs">
+                                                        <connections>
+                                                            <segue destination="VlJ-6e-vm0" kind="presentation" modalPresentationStyle="fullScreen" id="IAy-7B-sTM"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Eur" id="VAY-JN-IWy">
+                                                        <connections>
+                                                            <segue destination="leW-1a-GPT" kind="presentation" modalPresentationStyle="fullScreen" id="KTF-mV-pSj"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                </items>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </toolbar>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="6yW-U2-Asj" firstAttribute="top" secondItem="QZx-fX-vfq" secondAttribute="top" id="0pd-Li-LNM"/>
+                                            <constraint firstAttribute="trailing" secondItem="fzg-2B-Vfh" secondAttribute="trailing" constant="40" id="8dp-6L-OI8"/>
+                                            <constraint firstItem="fzg-2B-Vfh" firstAttribute="top" secondItem="QZx-fX-vfq" secondAttribute="top" constant="40" id="ApP-JX-Pic"/>
+                                            <constraint firstAttribute="trailing" secondItem="6yW-U2-Asj" secondAttribute="trailing" id="E8M-8w-RtP"/>
+                                            <constraint firstItem="fzg-2B-Vfh" firstAttribute="leading" secondItem="QZx-fX-vfq" secondAttribute="leading" constant="40" id="GSf-62-lCq"/>
+                                            <constraint firstAttribute="trailing" secondItem="7ZR-mK-hyx" secondAttribute="trailing" constant="40" id="IFf-Hq-X3W"/>
+                                            <constraint firstAttribute="bottom" secondItem="7ZR-mK-hyx" secondAttribute="bottom" constant="40" id="MlC-y4-rc7"/>
+                                            <constraint firstItem="7ZR-mK-hyx" firstAttribute="top" secondItem="pTe-WE-UrJ" secondAttribute="bottom" constant="20" id="SKd-bk-oSd"/>
+                                            <constraint firstItem="6yW-U2-Asj" firstAttribute="leading" secondItem="QZx-fX-vfq" secondAttribute="leading" id="f18-e0-J6m"/>
+                                            <constraint firstItem="pTe-WE-UrJ" firstAttribute="top" secondItem="fzg-2B-Vfh" secondAttribute="bottom" constant="20" id="fX9-fp-nZT"/>
+                                            <constraint firstItem="7ZR-mK-hyx" firstAttribute="leading" secondItem="QZx-fX-vfq" secondAttribute="leading" constant="40" id="frr-W2-4wJ"/>
+                                            <constraint firstItem="pTe-WE-UrJ" firstAttribute="leading" secondItem="QZx-fX-vfq" secondAttribute="leading" constant="20" id="smb-Ue-yBJ"/>
+                                            <constraint firstAttribute="trailing" secondItem="pTe-WE-UrJ" secondAttribute="trailing" constant="20" id="xo0-bj-3EX"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="QZx-fX-vfq" secondAttribute="trailing" id="65x-cx-Eh2"/>
+                                    <constraint firstItem="QZx-fX-vfq" firstAttribute="leading" secondItem="Ipz-Xc-Ihc" secondAttribute="leading" id="8X8-tr-5oA"/>
+                                    <constraint firstItem="QZx-fX-vfq" firstAttribute="height" secondItem="Ipz-Xc-Ihc" secondAttribute="height" priority="250" id="Fqz-t8-0Cd"/>
+                                    <constraint firstItem="QZx-fX-vfq" firstAttribute="width" secondItem="Ipz-Xc-Ihc" secondAttribute="width" id="YqN-Iy-lYX"/>
+                                    <constraint firstAttribute="bottom" secondItem="QZx-fX-vfq" secondAttribute="bottom" id="agY-zH-aXG"/>
+                                    <constraint firstItem="QZx-fX-vfq" firstAttribute="top" secondItem="Ipz-Xc-Ihc" secondAttribute="top" id="osP-kT-mnA"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ev8-2p-FwM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ipz-Xc-Ihc" firstAttribute="top" secondItem="ev8-2p-FwM" secondAttribute="top" id="6uf-r0-f06"/>
+                            <constraint firstItem="Ipz-Xc-Ihc" firstAttribute="bottom" secondItem="ev8-2p-FwM" secondAttribute="bottom" id="T05-LB-RMm"/>
+                            <constraint firstItem="Ipz-Xc-Ihc" firstAttribute="trailing" secondItem="ev8-2p-FwM" secondAttribute="trailing" id="bvY-w2-clV"/>
+                            <constraint firstItem="Ipz-Xc-Ihc" firstAttribute="leading" secondItem="ev8-2p-FwM" secondAttribute="leading" id="yIr-VZ-HiE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label7" destination="pTe-WE-UrJ" id="OhV-eG-phG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HiS-iD-WGV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="591" y="-818"/>
+        </scene>
         <!--Scroll View Controller-->
         <scene sceneID="7td-lc-nYj">
             <objects>
@@ -23,55 +303,102 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YFY-yb-cE8">
-                                                <rect key="frame" x="40" y="40" width="334" height="100"/>
+                                                <rect key="frame" x="40" y="40" width="334" height="120"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NORTH AMERICA:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mui-RB-GSN">
-                                                        <rect key="frame" x="13" y="3" width="309" height="57"/>
+                                                        <rect key="frame" x="13" y="12" width="309" height="57"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="42"/>
-                                                        <color key="textColor" red="0.66279765639999999" green="1" blue="0.60847773940000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="36"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recycling" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UqQ-ml-xMv">
-                                                        <rect key="frame" x="79" y="43" width="177" height="57"/>
+                                                        <rect key="frame" x="79" y="55" width="177" height="57"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="36"/>
-                                                        <color key="textColor" red="0.66279765639999999" green="1" blue="0.60847773940000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="36"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.30844281299999998" green="0.57685158889999999" blue="0.78274019189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="100" id="rwM-Hi-z91"/>
+                                                    <constraint firstAttribute="height" constant="120" id="rwM-Hi-z91"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0XB-Ye-OJk">
-                                                <rect key="frame" x="20" y="160" width="374" height="21"/>
+                                                <rect key="frame" x="20" y="180" width="374" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="8BN-Yh-M1A"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" systemColor="systemGray6Color"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NAs-Sq-3dF">
-                                                <rect key="frame" x="40" y="201" width="334" height="577"/>
-                                                <color key="backgroundColor" red="0.30844281299999998" green="0.57685158889999999" blue="0.78274019189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <rect key="frame" x="40" y="221" width="334" height="557"/>
+                                                <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="497" id="x3n-pp-BgV"/>
                                                 </constraints>
                                             </view>
+                                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RZz-fK-L6c">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                                <items>
+                                                    <barButtonItem title="HOME" id="3iU-NX-V9d">
+                                                        <connections>
+                                                            <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="nVV-n9-iy3"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="S Amer" id="rZ5-hj-sul">
+                                                        <connections>
+                                                            <segue destination="xQC-Us-ztb" kind="presentation" modalPresentationStyle="fullScreen" id="Vc0-bp-YM8"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Aus" id="6yL-3h-aoK">
+                                                        <connections>
+                                                            <segue destination="kOn-Ju-Pj6" kind="presentation" modalPresentationStyle="fullScreen" id="Ztc-UL-rlP"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Asia" id="KCc-8h-JPm">
+                                                        <connections>
+                                                            <segue destination="3qr-ga-wsq" kind="presentation" modalPresentationStyle="fullScreen" id="ltd-2n-TW3"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Afr" id="9Me-hu-QwP">
+                                                        <connections>
+                                                            <segue destination="VlJ-6e-vm0" kind="presentation" modalPresentationStyle="fullScreen" id="qkf-hH-EC7"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Eur" id="vTM-Af-mnK">
+                                                        <connections>
+                                                            <segue destination="leW-1a-GPT" kind="presentation" modalPresentationStyle="fullScreen" id="Zuv-Z1-lFh"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Ant" id="U5c-VI-czu">
+                                                        <connections>
+                                                            <segue destination="1SM-2B-Mpq" kind="presentation" modalPresentationStyle="fullScreen" id="O47-rD-tbQ"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                </items>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </toolbar>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.30844281299999998" green="0.57685158889999999" blue="0.78274019189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstItem="RZz-fK-L6c" firstAttribute="leading" secondItem="v6I-M5-1ND" secondAttribute="leading" id="4Ja-yP-72f"/>
+                                            <constraint firstAttribute="trailing" secondItem="RZz-fK-L6c" secondAttribute="trailing" id="5Mn-pf-vZC"/>
                                             <constraint firstItem="YFY-yb-cE8" firstAttribute="leading" secondItem="v6I-M5-1ND" secondAttribute="leading" constant="40" id="6Yk-IP-4gk"/>
                                             <constraint firstItem="0XB-Ye-OJk" firstAttribute="top" secondItem="YFY-yb-cE8" secondAttribute="bottom" constant="20" id="9Z0-FV-Tpp"/>
                                             <constraint firstAttribute="bottom" secondItem="NAs-Sq-3dF" secondAttribute="bottom" constant="40" id="HKu-K0-RaO"/>
                                             <constraint firstItem="NAs-Sq-3dF" firstAttribute="leading" secondItem="v6I-M5-1ND" secondAttribute="leading" constant="40" id="L0X-q9-njZ"/>
                                             <constraint firstAttribute="trailing" secondItem="0XB-Ye-OJk" secondAttribute="trailing" constant="20" id="OzF-oH-skM"/>
+                                            <constraint firstItem="RZz-fK-L6c" firstAttribute="top" secondItem="v6I-M5-1ND" secondAttribute="top" id="aH6-Es-6PZ"/>
                                             <constraint firstItem="0XB-Ye-OJk" firstAttribute="leading" secondItem="v6I-M5-1ND" secondAttribute="leading" constant="20" id="aRe-gv-oLq"/>
                                             <constraint firstAttribute="trailing" secondItem="NAs-Sq-3dF" secondAttribute="trailing" constant="40" id="dhV-LQ-t4J"/>
+                                            <constraint firstAttribute="trailing" secondItem="RZz-fK-L6c" secondAttribute="trailing" id="f6b-vF-A3G"/>
                                             <constraint firstItem="NAs-Sq-3dF" firstAttribute="top" secondItem="0XB-Ye-OJk" secondAttribute="bottom" constant="20" id="g8z-Po-1cs"/>
+                                            <constraint firstItem="RZz-fK-L6c" firstAttribute="leading" secondItem="v6I-M5-1ND" secondAttribute="leading" id="k1b-r6-tjl"/>
+                                            <constraint firstItem="RZz-fK-L6c" firstAttribute="top" secondItem="v6I-M5-1ND" secondAttribute="top" id="kaA-GL-lsD"/>
                                             <constraint firstAttribute="trailing" secondItem="YFY-yb-cE8" secondAttribute="trailing" constant="40" id="sSC-qM-LcY"/>
                                             <constraint firstItem="YFY-yb-cE8" firstAttribute="top" secondItem="v6I-M5-1ND" secondAttribute="top" constant="40" id="zBV-cW-lN3"/>
                                         </constraints>
@@ -106,7 +433,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XpD-Ob-2Mo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="790" y="-296"/>
+            <point key="canvasLocation" x="1271.0144927536232" y="-283.25892857142856"/>
         </scene>
         <!--South America View Controller-->
         <scene sceneID="zPL-zg-YVj">
@@ -133,30 +460,81 @@
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jh0-1K-xdg">
                                                 <rect key="frame" x="40" y="40" width="334" height="180"/>
-                                                <color key="backgroundColor" red="0.30844281299999998" green="0.57685158889999999" blue="0.78274019189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SOUTH AMERICA:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3oX-xM-RWy">
+                                                        <rect key="frame" x="5" y="15" width="324" height="57"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="36"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rainforest Depletion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNK-jo-jpT">
+                                                        <rect key="frame" x="11" y="62" width="313" height="57"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="36"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="180" id="7aA-RL-c3A"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nFe-mU-Sde">
                                                 <rect key="frame" x="40" y="281" width="334" height="497"/>
-                                                <color key="backgroundColor" red="0.30844281299999998" green="0.57685158889999999" blue="0.78274019189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="497" id="WY0-fD-h7y"/>
                                                 </constraints>
                                             </view>
+                                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qlx-1q-lDg">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                                <items>
+                                                    <barButtonItem title="HOME" id="70O-Qf-2Lt">
+                                                        <connections>
+                                                            <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="qLd-vv-B74"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="N Amer" id="pfh-DH-OrQ">
+                                                        <connections>
+                                                            <segue destination="Aae-Xw-qgC" kind="presentation" modalPresentationStyle="fullScreen" id="Rgj-om-upi"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Aus" id="gIz-vj-22G">
+                                                        <connections>
+                                                            <segue destination="kOn-Ju-Pj6" kind="presentation" modalPresentationStyle="fullScreen" id="doL-oE-2Mz"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Asia" id="olR-o1-htK">
+                                                        <connections>
+                                                            <segue destination="3qr-ga-wsq" kind="presentation" modalPresentationStyle="fullScreen" id="VJp-MF-ytz"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Afr" id="4N3-SW-GMC"/>
+                                                    <barButtonItem title="Eur" id="g9Q-1F-rFb"/>
+                                                    <barButtonItem title="Ant" id="8Eh-TW-pfV"/>
+                                                </items>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </toolbar>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="G3U-OZ-t60" firstAttribute="top" secondItem="Jh0-1K-xdg" secondAttribute="bottom" constant="20" id="0E0-XP-ffY"/>
                                             <constraint firstItem="Jh0-1K-xdg" firstAttribute="leading" secondItem="aAO-fR-3AT" secondAttribute="leading" constant="40" id="677-wx-bPg"/>
                                             <constraint firstAttribute="trailing" secondItem="Jh0-1K-xdg" secondAttribute="trailing" constant="40" id="7gy-k7-XBg"/>
+                                            <constraint firstAttribute="trailing" secondItem="qlx-1q-lDg" secondAttribute="trailing" id="BMz-zE-9IY"/>
+                                            <constraint firstAttribute="trailing" secondItem="qlx-1q-lDg" secondAttribute="trailing" id="BsB-K9-U1n"/>
                                             <constraint firstItem="nFe-mU-Sde" firstAttribute="top" secondItem="G3U-OZ-t60" secondAttribute="bottom" constant="20" id="FZc-IT-LYy"/>
+                                            <constraint firstItem="qlx-1q-lDg" firstAttribute="leading" secondItem="aAO-fR-3AT" secondAttribute="leading" id="FdU-9x-D57"/>
                                             <constraint firstItem="G3U-OZ-t60" firstAttribute="leading" secondItem="aAO-fR-3AT" secondAttribute="leading" constant="20" id="KVz-Pr-3bB"/>
                                             <constraint firstItem="nFe-mU-Sde" firstAttribute="leading" secondItem="aAO-fR-3AT" secondAttribute="leading" constant="40" id="Nhh-k7-Lns"/>
                                             <constraint firstAttribute="bottom" secondItem="nFe-mU-Sde" secondAttribute="bottom" constant="40" id="dRy-y7-Uwd"/>
                                             <constraint firstAttribute="trailing" secondItem="G3U-OZ-t60" secondAttribute="trailing" constant="20" id="h2a-ib-LQg"/>
+                                            <constraint firstItem="qlx-1q-lDg" firstAttribute="top" secondItem="aAO-fR-3AT" secondAttribute="top" id="nO3-p8-rog"/>
                                             <constraint firstAttribute="trailing" secondItem="nFe-mU-Sde" secondAttribute="trailing" constant="40" id="pi1-Rz-OjJ"/>
+                                            <constraint firstItem="qlx-1q-lDg" firstAttribute="leading" secondItem="aAO-fR-3AT" secondAttribute="leading" id="spl-Qi-Q6V"/>
+                                            <constraint firstItem="qlx-1q-lDg" firstAttribute="top" secondItem="aAO-fR-3AT" secondAttribute="top" id="uHk-qC-i6W"/>
                                             <constraint firstItem="Jh0-1K-xdg" firstAttribute="top" secondItem="aAO-fR-3AT" secondAttribute="top" constant="40" id="uU7-BG-R1U"/>
                                         </constraints>
                                     </view>
@@ -186,7 +564,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LSa-Le-uLb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="151" y="759"/>
+            <point key="canvasLocation" x="0.0" y="1030"/>
         </scene>
         <!--Australia View Controller-->
         <scene sceneID="eeq-FS-x8b">
@@ -204,7 +582,23 @@
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EZh-lU-tcS">
                                                 <rect key="frame" x="40" y="40" width="334" height="180"/>
-                                                <color key="backgroundColor" systemColor="systemCyanColor"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AUSTRALIA:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8NL-OT-3wX">
+                                                        <rect key="frame" x="59" y="8" width="217" height="57"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="36"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Land Degredation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yKV-uv-9w6">
+                                                        <rect key="frame" x="23" y="62" width="288" height="57"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="36"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="180" id="Ecl-vQ-51X"/>
                                                 </constraints>
@@ -220,30 +614,77 @@
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aMk-sK-QkG">
                                                 <rect key="frame" x="40" y="281" width="334" height="497"/>
-                                                <color key="backgroundColor" systemColor="systemCyanColor"/>
+                                                <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="497" id="wRE-DK-q5O"/>
                                                 </constraints>
                                             </view>
+                                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Khj-vc-zLG">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                                <items>
+                                                    <barButtonItem title="HOME" id="xhf-Id-Ehz">
+                                                        <connections>
+                                                            <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="E9t-nn-Hly"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="N Amer" id="YQQ-4O-2jA">
+                                                        <connections>
+                                                            <segue destination="Aae-Xw-qgC" kind="presentation" modalPresentationStyle="fullScreen" id="TX7-3H-35p"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="S Amer" id="PHM-9O-48I">
+                                                        <connections>
+                                                            <segue destination="xQC-Us-ztb" kind="presentation" modalPresentationStyle="fullScreen" id="759-fQ-IS0"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Asia" id="SIe-1S-lxa">
+                                                        <connections>
+                                                            <segue destination="3qr-ga-wsq" kind="presentation" modalPresentationStyle="fullScreen" id="nLH-dY-nBY"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Afr" id="eTo-BL-RqS">
+                                                        <connections>
+                                                            <segue destination="VlJ-6e-vm0" kind="presentation" modalPresentationStyle="fullScreen" id="YUT-CS-Ur1"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Eur" id="mtc-mh-EHf">
+                                                        <connections>
+                                                            <segue destination="leW-1a-GPT" kind="presentation" modalPresentationStyle="fullScreen" id="WpC-tY-R30"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Ant" id="5cb-xv-DZW">
+                                                        <connections>
+                                                            <segue destination="1SM-2B-Mpq" kind="presentation" modalPresentationStyle="fullScreen" id="IoD-J3-BAD"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                </items>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </toolbar>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="EZh-lU-tcS" secondAttribute="trailing" constant="40" id="0UO-5t-AJA"/>
                                             <constraint firstItem="aMk-sK-QkG" firstAttribute="top" secondItem="Wr7-LD-zl6" secondAttribute="bottom" constant="20" id="5IQ-Pr-Mgn"/>
                                             <constraint firstItem="EZh-lU-tcS" firstAttribute="leading" secondItem="SET-KH-hBx" secondAttribute="leading" constant="40" id="6J3-O7-cwP"/>
+                                            <constraint firstAttribute="trailing" secondItem="Khj-vc-zLG" secondAttribute="trailing" id="8J1-rP-Rat"/>
                                             <constraint firstItem="aMk-sK-QkG" firstAttribute="leading" secondItem="SET-KH-hBx" secondAttribute="leading" constant="40" id="Dcd-JC-2KX"/>
                                             <constraint firstItem="Wr7-LD-zl6" firstAttribute="top" secondItem="EZh-lU-tcS" secondAttribute="bottom" constant="20" id="J71-wg-r2z"/>
+                                            <constraint firstItem="Khj-vc-zLG" firstAttribute="top" secondItem="SET-KH-hBx" secondAttribute="top" id="MAh-QT-HWh"/>
+                                            <constraint firstAttribute="trailing" secondItem="Khj-vc-zLG" secondAttribute="trailing" id="QAE-NP-1Y7"/>
                                             <constraint firstItem="EZh-lU-tcS" firstAttribute="top" secondItem="SET-KH-hBx" secondAttribute="top" constant="40" id="RiE-bY-W90"/>
+                                            <constraint firstItem="Khj-vc-zLG" firstAttribute="leading" secondItem="SET-KH-hBx" secondAttribute="leading" id="VWI-a9-mer"/>
                                             <constraint firstAttribute="trailing" secondItem="aMk-sK-QkG" secondAttribute="trailing" constant="40" id="X1c-tV-ISL"/>
                                             <constraint firstAttribute="bottom" secondItem="aMk-sK-QkG" secondAttribute="bottom" constant="40" id="eWx-Um-p4j"/>
                                             <constraint firstItem="Wr7-LD-zl6" firstAttribute="leading" secondItem="SET-KH-hBx" secondAttribute="leading" constant="20" id="kqH-F0-601"/>
+                                            <constraint firstItem="Khj-vc-zLG" firstAttribute="top" secondItem="SET-KH-hBx" secondAttribute="top" id="lQb-S3-cW3"/>
                                             <constraint firstAttribute="trailing" secondItem="Wr7-LD-zl6" secondAttribute="trailing" constant="20" id="lwH-kg-8SL"/>
+                                            <constraint firstItem="Khj-vc-zLG" firstAttribute="leading" secondItem="SET-KH-hBx" secondAttribute="leading" id="rHA-Ej-827"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="SET-KH-hBx" firstAttribute="leading" secondItem="JwA-AB-qq4" secondAttribute="leading" id="9Hd-tM-7ag"/>
-                                    <constraint firstItem="SET-KH-hBx" firstAttribute="height" secondItem="JwA-AB-qq4" secondAttribute="height" id="Hx1-M8-J8a"/>
+                                    <constraint firstItem="SET-KH-hBx" firstAttribute="height" secondItem="JwA-AB-qq4" secondAttribute="height" priority="250" id="Hx1-M8-J8a"/>
                                     <constraint firstItem="SET-KH-hBx" firstAttribute="width" secondItem="JwA-AB-qq4" secondAttribute="width" id="d3J-VS-Zdr"/>
                                     <constraint firstItem="SET-KH-hBx" firstAttribute="top" secondItem="JwA-AB-qq4" secondAttribute="top" id="foj-Pn-T7y"/>
                                     <constraint firstAttribute="bottom" secondItem="SET-KH-hBx" secondAttribute="bottom" id="uKD-Ke-LIb"/>
@@ -266,7 +707,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hau-SE-OT0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-591.304347826087" y="574.55357142857144"/>
+            <point key="canvasLocation" x="-1030.4347826086957" y="644.86607142857144"/>
         </scene>
         <!--Africa View Controller-->
         <scene sceneID="Vj9-aY-gv2">
@@ -293,25 +734,88 @@
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1yu-1E-dcG">
                                                 <rect key="frame" x="40" y="40" width="334" height="180"/>
-                                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AFRICA:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Az5-lp-DXm">
+                                                        <rect key="frame" x="93" y="20" width="149" height="57"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="36"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Desertification" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OAk-bF-3Lf">
+                                                        <rect key="frame" x="51" y="73" width="233" height="57"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="36"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="180" id="hbq-jX-o0j"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sXj-0Y-UN6">
                                                 <rect key="frame" x="40" y="281" width="334" height="497"/>
-                                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                                <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="497" id="GaV-ea-K16"/>
                                                 </constraints>
                                             </view>
+                                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zfd-yh-IWP">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                                <items>
+                                                    <barButtonItem title="HOME" id="ktb-ra-mi8">
+                                                        <connections>
+                                                            <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="fIO-kg-Ahl"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="N Amer" id="dXn-Xi-daK">
+                                                        <connections>
+                                                            <segue destination="Aae-Xw-qgC" kind="presentation" modalPresentationStyle="fullScreen" id="d6c-vx-neB"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="S Amer" id="Z0A-fI-zqz">
+                                                        <connections>
+                                                            <segue destination="xQC-Us-ztb" kind="presentation" modalPresentationStyle="fullScreen" id="ULm-BO-Udf"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Aus" id="23u-du-acq">
+                                                        <connections>
+                                                            <segue destination="kOn-Ju-Pj6" kind="presentation" modalPresentationStyle="fullScreen" id="g9G-fz-5Uc"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Asia" id="ARD-mo-dPb">
+                                                        <connections>
+                                                            <segue destination="3qr-ga-wsq" kind="presentation" modalPresentationStyle="fullScreen" id="N69-7n-Z6p"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Eur" id="alr-u5-K0a">
+                                                        <connections>
+                                                            <segue destination="leW-1a-GPT" kind="presentation" modalPresentationStyle="fullScreen" id="oBr-j0-twd"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Ant" id="D7b-OH-XFJ">
+                                                        <connections>
+                                                            <segue destination="1SM-2B-Mpq" kind="presentation" modalPresentationStyle="fullScreen" id="KJO-OY-BFo"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                </items>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </toolbar>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="1yu-1E-dcG" firstAttribute="leading" secondItem="TDp-TT-53V" secondAttribute="leading" constant="40" id="8kq-nG-c1I"/>
+                                            <constraint firstAttribute="trailing" secondItem="zfd-yh-IWP" secondAttribute="trailing" id="AU2-iw-8yf"/>
+                                            <constraint firstItem="zfd-yh-IWP" firstAttribute="leading" secondItem="TDp-TT-53V" secondAttribute="leading" id="B8Q-NW-i9V"/>
                                             <constraint firstAttribute="trailing" secondItem="1yu-1E-dcG" secondAttribute="trailing" constant="40" id="BYC-1K-AFH"/>
+                                            <constraint firstItem="zfd-yh-IWP" firstAttribute="top" secondItem="TDp-TT-53V" secondAttribute="top" id="Bz5-pj-6U9"/>
                                             <constraint firstItem="T1i-th-bFQ" firstAttribute="leading" secondItem="TDp-TT-53V" secondAttribute="leading" constant="20" id="Fki-4v-3uS"/>
                                             <constraint firstItem="1yu-1E-dcG" firstAttribute="top" secondItem="TDp-TT-53V" secondAttribute="top" constant="40" id="K27-jI-fKL"/>
+                                            <constraint firstItem="zfd-yh-IWP" firstAttribute="top" secondItem="TDp-TT-53V" secondAttribute="top" id="M7c-5g-unj"/>
+                                            <constraint firstAttribute="trailing" secondItem="zfd-yh-IWP" secondAttribute="trailing" id="Oeh-7f-8Oy"/>
+                                            <constraint firstItem="zfd-yh-IWP" firstAttribute="leading" secondItem="TDp-TT-53V" secondAttribute="leading" id="S49-2i-7ij"/>
                                             <constraint firstItem="sXj-0Y-UN6" firstAttribute="top" secondItem="T1i-th-bFQ" secondAttribute="bottom" constant="20" id="ab7-uz-8yp"/>
                                             <constraint firstItem="T1i-th-bFQ" firstAttribute="top" secondItem="1yu-1E-dcG" secondAttribute="bottom" constant="20" id="crQ-FJ-uYn"/>
                                             <constraint firstItem="sXj-0Y-UN6" firstAttribute="leading" secondItem="TDp-TT-53V" secondAttribute="leading" constant="40" id="d7g-aQ-dfT"/>
@@ -347,7 +851,147 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F0O-mk-GEc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="884" y="408"/>
+            <point key="canvasLocation" x="997" y="479"/>
+        </scene>
+        <!--Europe View Controller-->
+        <scene sceneID="Wbt-lg-a8O">
+            <objects>
+                <viewController id="leW-1a-GPT" customClass="EuropeViewController" customModule="NEWFinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vnw-BG-RK3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qpi-NO-kGY">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pku-BO-48K">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KKV-0C-mCf">
+                                                <rect key="frame" x="40" y="40" width="334" height="180"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EUROPE:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQP-8O-CfU">
+                                                        <rect key="frame" x="95" y="8" width="152" height="57"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="36"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Air Pollution" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLk-RD-66T">
+                                                        <rect key="frame" x="70" y="62" width="193" height="57"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="36"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="180" id="JSH-et-FId"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uRn-YL-BaT">
+                                                <rect key="frame" x="40" y="281" width="334" height="497.5"/>
+                                                <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="497.5" id="0RI-Ko-dOR"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bB2-8r-f4a">
+                                                <rect key="frame" x="20" y="240" width="374" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="Oiq-p9-kLV"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fEy-k7-103">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                                <items>
+                                                    <barButtonItem title="HOME" id="Qe8-4O-dFh">
+                                                        <connections>
+                                                            <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="qfB-MW-R3F"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="N Amer" id="g9R-Xf-QI6">
+                                                        <connections>
+                                                            <segue destination="Aae-Xw-qgC" kind="presentation" modalPresentationStyle="fullScreen" id="IR0-LE-0ZM"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="S Amer" id="Hga-aZ-coQ">
+                                                        <connections>
+                                                            <segue destination="xQC-Us-ztb" kind="presentation" modalPresentationStyle="fullScreen" id="Dgs-b2-5p5"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Aus" id="JNe-X6-3sg">
+                                                        <connections>
+                                                            <segue destination="kOn-Ju-Pj6" kind="presentation" modalPresentationStyle="fullScreen" id="gOl-04-L1h"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Asia" id="Wol-Hj-1J9">
+                                                        <connections>
+                                                            <segue destination="3qr-ga-wsq" kind="presentation" modalPresentationStyle="fullScreen" id="lhR-7c-JvH"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Afr" id="ljW-xY-Ra0">
+                                                        <connections>
+                                                            <segue destination="VlJ-6e-vm0" kind="presentation" modalPresentationStyle="fullScreen" id="90U-FU-bsG"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                    <barButtonItem title="Ant" id="uli-PO-kNl">
+                                                        <connections>
+                                                            <segue destination="1SM-2B-Mpq" kind="presentation" modalPresentationStyle="fullScreen" id="8bZ-n4-Kcz"/>
+                                                        </connections>
+                                                    </barButtonItem>
+                                                </items>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </toolbar>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.91764705879999997" green="0.89944759829999998" blue="0.87154038730000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="uRn-YL-BaT" firstAttribute="top" secondItem="bB2-8r-f4a" secondAttribute="bottom" constant="20" id="1zL-FJ-keC"/>
+                                            <constraint firstItem="bB2-8r-f4a" firstAttribute="top" secondItem="KKV-0C-mCf" secondAttribute="bottom" constant="20" id="3GX-hL-LRA"/>
+                                            <constraint firstItem="fEy-k7-103" firstAttribute="leading" secondItem="pku-BO-48K" secondAttribute="leading" id="8pR-ES-BU7"/>
+                                            <constraint firstItem="KKV-0C-mCf" firstAttribute="top" secondItem="pku-BO-48K" secondAttribute="top" constant="40" id="EbK-jF-wJh"/>
+                                            <constraint firstAttribute="trailing" secondItem="KKV-0C-mCf" secondAttribute="trailing" constant="40" id="GR5-mi-Osn"/>
+                                            <constraint firstAttribute="trailing" secondItem="bB2-8r-f4a" secondAttribute="trailing" constant="20" id="Iql-6i-wCh"/>
+                                            <constraint firstItem="uRn-YL-BaT" firstAttribute="leading" secondItem="pku-BO-48K" secondAttribute="leading" constant="40" id="VlF-Jv-uDD"/>
+                                            <constraint firstAttribute="trailing" secondItem="uRn-YL-BaT" secondAttribute="trailing" constant="40" id="W3J-2U-1bz"/>
+                                            <constraint firstItem="fEy-k7-103" firstAttribute="top" secondItem="pku-BO-48K" secondAttribute="top" id="XQU-gM-VpV"/>
+                                            <constraint firstAttribute="bottom" secondItem="uRn-YL-BaT" secondAttribute="bottom" constant="40" id="ZLB-3A-CSV"/>
+                                            <constraint firstItem="KKV-0C-mCf" firstAttribute="leading" secondItem="pku-BO-48K" secondAttribute="leading" constant="40" id="d3d-BR-Pxq"/>
+                                            <constraint firstItem="bB2-8r-f4a" firstAttribute="leading" secondItem="pku-BO-48K" secondAttribute="leading" constant="20" id="o7v-Oe-8VL"/>
+                                            <constraint firstAttribute="trailing" secondItem="fEy-k7-103" secondAttribute="trailing" id="urH-4r-XeO"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="pku-BO-48K" firstAttribute="height" secondItem="qpi-NO-kGY" secondAttribute="height" priority="250" id="FCJ-Mo-tCr"/>
+                                    <constraint firstItem="pku-BO-48K" firstAttribute="top" secondItem="qpi-NO-kGY" secondAttribute="top" id="HIw-IQ-p3E"/>
+                                    <constraint firstAttribute="trailing" secondItem="pku-BO-48K" secondAttribute="trailing" id="h1u-KJ-Exc"/>
+                                    <constraint firstItem="pku-BO-48K" firstAttribute="leading" secondItem="qpi-NO-kGY" secondAttribute="leading" id="iVT-Qa-me5"/>
+                                    <constraint firstItem="pku-BO-48K" firstAttribute="width" secondItem="qpi-NO-kGY" secondAttribute="width" id="lNO-eo-Asn"/>
+                                    <constraint firstAttribute="bottom" secondItem="pku-BO-48K" secondAttribute="bottom" id="n7M-8i-Jk7"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MyS-hi-WqS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qpi-NO-kGY" firstAttribute="bottom" secondItem="MyS-hi-WqS" secondAttribute="bottom" id="0oi-8j-0Jb"/>
+                            <constraint firstItem="qpi-NO-kGY" firstAttribute="leading" secondItem="MyS-hi-WqS" secondAttribute="leading" id="8K2-kj-qh9"/>
+                            <constraint firstItem="qpi-NO-kGY" firstAttribute="trailing" secondItem="MyS-hi-WqS" secondAttribute="trailing" id="Ia3-i7-tVK"/>
+                            <constraint firstItem="qpi-NO-kGY" firstAttribute="top" secondItem="MyS-hi-WqS" secondAttribute="top" id="lJZ-GK-RyT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label5" destination="bB2-8r-f4a" id="H0o-mN-pIG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4N7-QG-mv3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1268" y="-579"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -357,100 +1001,123 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ENVIROGLOBAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DCY-yQ-loe">
-                                <rect key="frame" x="56" y="156" width="302" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="50"/>
-                                <color key="textColor" red="0.66279765639999999" green="1" blue="0.60847773940000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="640px-BlankMap-World-Sovereign_Nations.svg-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="1nm-kb-uSK">
-                                <rect key="frame" x="-37" y="224" width="457" height="274"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="By: Kate Lamb, Danielle Nelson, Naina Sardana" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ng5-YY-LcT">
-                                <rect key="frame" x="29" y="556" width="356" height="21"/>
+                                <rect key="frame" x="29" y="589" width="356" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.9451211965045766" green="1" blue="0.62013999414942411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iv8-ZL-ah9">
-                                <rect key="frame" x="20" y="623" width="361" height="139"/>
+                                <rect key="frame" x="20" y="641" width="361" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0031029575809999998" green="0.40051370749999998" blue="0.71092416169999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
                                 <string key="text">Directions: Press on each continent to see a description of its major environmental issue, measures being taken, and how you can help! Be sure to check out the game at the bottom of the page after reading the description.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="graduationcap.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="iTF-vE-I0P">
-                                <rect key="frame" x="143" y="45" width="128" height="100"/>
+                                <rect key="frame" x="143" y="116" width="128" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.0031029575809999998" green="0.40051370749999998" blue="0.71092416169999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8vP-GS-5M4">
-                                <rect key="frame" x="206" y="344" width="10" height="10"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ENVIROGLOBAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DCY-yQ-loe">
+                                <rect key="frame" x="20" y="219" width="383" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="50"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oGK-P7-YGj">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <items>
+                                    <barButtonItem title="N Amer" id="dhY-rU-gPQ">
+                                        <connections>
+                                            <segue destination="Aae-Xw-qgC" kind="presentation" modalPresentationStyle="fullScreen" id="QGg-tE-U3h"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="S Amer" id="0Ga-JQ-fCX">
+                                        <connections>
+                                            <segue destination="xQC-Us-ztb" kind="presentation" modalPresentationStyle="fullScreen" id="4Pe-yt-9yb"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Austr" id="1y1-k4-Zou">
+                                        <connections>
+                                            <segue destination="kOn-Ju-Pj6" kind="presentation" modalPresentationStyle="fullScreen" id="5rg-Ch-ga3"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Asia" id="QQm-tj-MOu">
+                                        <connections>
+                                            <segue destination="3qr-ga-wsq" kind="presentation" modalPresentationStyle="fullScreen" id="bqq-AB-mqV"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Afr" id="jAH-eM-K4Q">
+                                        <connections>
+                                            <segue destination="VlJ-6e-vm0" kind="presentation" modalPresentationStyle="fullScreen" id="Oxd-eB-zF8"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Eur" id="PaE-62-CMZ">
+                                        <connections>
+                                            <segue destination="leW-1a-GPT" kind="presentation" modalPresentationStyle="fullScreen" id="WMd-bM-vmi"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Ant" id="kJA-dp-6ND">
+                                        <connections>
+                                            <segue destination="1SM-2B-Mpq" kind="presentation" modalPresentationStyle="fullScreen" id="ihC-hZ-YqP"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </toolbar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="world-map-doodle-260nw-598322657-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="64J-Gm-ddj">
+                                <rect key="frame" x="-4" y="288" width="411" height="266"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dw7-4W-zBN">
+                                <rect key="frame" x="100" y="384" width="8" height="8"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.02818832731" green="0.4432401561" blue="0.1480628675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title=""/>
-                                <connections>
-                                    <segue destination="VlJ-6e-vm0" kind="presentation" modalPresentationStyle="fullScreen" id="nvl-0R-57l"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0u-lH-m9f">
-                                <rect key="frame" x="109" y="374" width="10" height="10"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.02818832731" green="0.4432401561" blue="0.1480628675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title=""/>
-                                <connections>
-                                    <segue destination="xQC-Us-ztb" kind="presentation" modalPresentationStyle="fullScreen" id="c7X-Co-453"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A9a-Xk-DVY">
-                                <rect key="frame" x="345" y="389" width="10" height="10"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.02818832731" green="0.4432401561" blue="0.1480628675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title=""/>
-                                <connections>
-                                    <segue destination="kOn-Ju-Pj6" kind="presentation" modalPresentationStyle="fullScreen" id="wdZ-qt-5yL"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aY7-Ab-TL6">
-                                <rect key="frame" x="192" y="288" width="10" height="10"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0A-XM-QoV">
+                                <rect key="frame" x="143" y="445" width="10" height="10"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.02818832731" green="0.4432401561" blue="0.1480628675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title=""/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GtG-r8-6AO">
-                                <rect key="frame" x="66" y="301" width="8" height="8"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VXG-0T-vC9">
+                                <rect key="frame" x="207" y="508" width="8" height="8"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.0" green="0.4102270724" blue="0.017778787149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title=""/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCn-qs-thS">
+                                <rect key="frame" x="206" y="415" width="10" height="10"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.02818832731" green="0.4432401561" blue="0.1480628675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title=""/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ev-f1-QIs">
-                                <rect key="frame" x="314" y="506" width="67" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CxB-x8-rb6">
+                                <rect key="frame" x="217" y="378" width="10" height="10"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                <connections>
-                                    <segue destination="Aae-Xw-qgC" kind="presentation" modalPresentationStyle="fullScreen" id="Oy8-kq-Gzh"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvy-PK-egJ">
-                                <rect key="frame" x="227" y="465" width="8" height="8"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.0" green="0.41022707235933553" blue="0.017778787151543813" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.02818832731" green="0.4432401561" blue="0.1480628675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title=""/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xhO-hR-f78">
-                                <rect key="frame" x="275" y="290" width="10" height="11"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFX-vA-Vie">
+                                <rect key="frame" x="275" y="371" width="10" height="11"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.02818832731" green="0.4432401561" blue="0.1480628675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title=""/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YIK-Gd-cba">
+                                <rect key="frame" x="322" y="455" width="10" height="10"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.02818832731" green="0.4432401561" blue="0.1480628675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
@@ -458,8 +1125,13 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.0016386835883827626" green="0.21151279779990428" blue="0.37544172808384624" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="0.42340335798426043" green="0.41453137764168402" blue="0.98504876956802401" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.91764705882352937" green="0.89944759826518728" blue="0.87154038726625949" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="oGK-P7-YGj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="FxQ-4z-MJO"/>
+                            <constraint firstItem="oGK-P7-YGj" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="HEw-1r-cb6"/>
+                            <constraint firstItem="oGK-P7-YGj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="MLe-Tj-ERV"/>
+                        </constraints>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="gWv-Q1-n5h"/>
@@ -467,23 +1139,30 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="89.855072463768124" y="69.642857142857139"/>
+            <point key="canvasLocation" x="111.59420289855073" y="236.38392857142856"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="J4Y-Cc-A4i"/>
+        <segue reference="KTF-mV-pSj"/>
+        <segue reference="IAy-7B-sTM"/>
+        <segue reference="gJx-E0-CSX"/>
+        <segue reference="Cfg-xU-ZuT"/>
+        <segue reference="Hcp-yL-Sfj"/>
+        <segue reference="8bZ-n4-Kcz"/>
+        <segue reference="Yeb-Kd-QNY"/>
+    </inferredMetricsTieBreakers>
     <resources>
-        <image name="640px-BlankMap-World-Sovereign_Nations.svg-removebg-preview" width="640" height="328"/>
         <image name="graduationcap.fill" catalog="system" width="128" height="108"/>
-        <systemColor name="opaqueSeparatorColor">
-            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <image name="world-map-doodle-260nw-598322657-removebg-preview" width="439" height="280"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemCyanColor">
-            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemGray6Color">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
